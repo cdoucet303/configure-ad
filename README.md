@@ -53,7 +53,7 @@ And now after the DC-1 virtual machine has reset and we are logged in we will cr
 
 
 <p>
-Once we have made our two new Organizational Unit folders we are now going to make a user in the _ADMIN folder. We do this by first selecting the _ADMIN folder then right clicking it and selecting new and then user. Fill out the user information in the spaces provided for this example I will using John Doe with the user logon name as john_admin. For the passwords setting do what ever is appropriate for your situation. I am doing the easiest of settings and passwords just for this lab but in a real work place the password part should be taken extremely seriously. So now the user has been added and you can see it in the _ADMINS folder but just because it is in a folder we created called _ADMINS and has admin in the logon name doesn't make it an admin yet! We need to Add john_admin to the “Domain Admins” Security Group to make it a real admin. To do this we simply right click the John doe user in the foler of _ADMINS and select properties and then Member of tab and click add and then type domain admins and check names then hit ok and after ok hit apply and now John Doe is an admin.
+Once we have made our two new Organizational Unit folders we are now going to make a user in the _ADMIN folder. We do this by first selecting the _ADMIN folder then right clicking it and selecting new and then user. Fill out the user information in the spaces provided for this example I will using John Doe with the user logon name as john_admin. For the passwords setting do what ever is appropriate for your situation. I am doing the easiest of settings and passwords just for this lab but in a real work place the password part should be taken extremely seriously. So now the user has been added and you can see it in the _ADMINS folder but just because it is in a folder we created called _ADMINS and has admin in the logon name doesn't make it an admin yet! We need to Add john_admin to the “Domain Admins” Security Group to make it a real admin. To do this we simply right click the John doe user in the foler of _ADMINS and select properties and then Member of tab and click add and then type domain admins and check names then hit ok and after ok hit apply and now John Doe is an admin.  
 </p>
 <br />
 
@@ -61,9 +61,19 @@ Once we have made our two new Organizational Unit folders we are now going to ma
 
 
 <p>
-For the Final Step 
+I am now going to exit this virtual machine and log back in as my newly created Admin account John Doe. 
 </p>
 <br />
 
-img
+<p>
+As I wait for my new Admin User john doe to log in on my DC-1 Domain controller virtual machine I am going to use this time to connect my Client-1 virtual machine to the Domain. To do this we log onto our Client-1 machine and right click the windows start button on the home page and then select System. Once this is done a window should pop up and the top should say About in big text now click Rename this PC (advanced) on the right hand side and when the system properties window pops up we will want to select change near the bottom and in the Computer Name/Domain Changes window we will want to select the Domain radio button and type in your domain and hit ok. It will then prompt you to log in with an account with permissions to join this domain and that is what we just created in the last step so im going to log in with my John Doe admin account and it should reset my VM if all is entered correctly. Now when it restarts it should now be apart of our Domain!
+</p> 
+<br />
 
+![image](https://github.com/user-attachments/assets/cc055b57-72ed-4f20-b223-22b8996c7bd5)
+
+
+<p>
+For the Final Step 
+</p>
+<br />
