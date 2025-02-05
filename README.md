@@ -74,6 +74,8 @@ As I wait for my new Admin User john doe to log in on my DC-1 Domain controller 
 
 
 <p>
-For the Final Step 
+For the Final Step I am going to double check in my DC-1 VM that the Client-1 has joined our domain. To do this click the windows start button on home page and click Windows Administrative Tools and then we click Active Directory Users and Computers. Once in the Active Directory Users and Computers slect the domain mine is mydomain.com for this example and then select the computers folder and you should see the Client-1 computer has joined the domain!
 </p>
 <br />
+
+![image](https://github.com/user-attachments/assets/1ab22e5d-2d50-4ec0-bace-0b827094dd44)
