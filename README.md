@@ -48,15 +48,17 @@ And now after the DC-1 virtual machine has reset and we are logged in we will cr
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/a4f383f7-0c74-486c-954f-60625e73f56b)
 ![image](https://github.com/user-attachments/assets/c5310a4e-ff79-4b6d-962c-98466d08b0fc)
 
 
 <p>
- 
+Once we have made our two new Organizational Unit folders we are now going to make a user in the _ADMIN folder. We do this by first selecting the _ADMIN folder then right clicking it and selecting new and then user. Fill out the user information in the spaces provided for this example I will using John Doe with the user logon name as john_admin. For the passwords setting do what ever is appropriate for your situation. I am doing the easiest of settings and passwords just for this lab but in a real work place the password part should be taken extremely seriously. So now the user has been added and you can see it in the _ADMINS folder but just because it is in a folder we created called _ADMINS and has admin in the logon name doesn't make it an admin yet! We need to Add john_admin to the “Domain Admins” Security Group to make it a real admin. To do this we simply right click the John doe user in the foler of _ADMINS and select properties and then Member of tab and click add and then type domain admins and check names then hit ok and after ok hit apply and now John Doe is an admin.
 </p>
 <br />
 
-img
+![image](https://github.com/user-attachments/assets/2ed28b28-23d8-4214-9939-ba40d9574ffd)
+
 
 <p>
 For the Final Step 
